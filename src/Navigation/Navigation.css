@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    font-family: "Oxygen", sans-serif;
+    padding: 10px 10%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: #dcdada;
+}
+
+.btn-container button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(54, 54, 255);
+    color: #fff;
+    font-size: 16px;
+}
