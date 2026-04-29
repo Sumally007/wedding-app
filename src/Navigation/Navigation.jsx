@@ -5,10 +5,10 @@ const Navigation = () => {
         <nav className='navigation'>
             <div className='navigation-container'>
                 <div className='logo-container'>
-                    <img src="" alt="" />
+                    {/* <img src="" alt="" /> */}
                     <span>Y-Ya</span>
                 </div>
-                <div className='lc'>
+                <div className='list-container'>
                     <ul className="list-items">
                         <li>Features</li>
                         <li>How It Works</li>
