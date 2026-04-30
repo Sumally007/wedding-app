@@ -5,6 +5,7 @@ import { CiGift } from "react-icons/ci";
 import { FiMessageSquare } from "react-icons/fi";
 import { IoIosTrendingUp } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
+import { FaHeart } from "react-icons/fa6";
 
 const Header = () => {
     return (
@@ -19,8 +20,8 @@ const Header = () => {
             <div className='contribution-container'>
                 <div className='moment-container'>
                     <div className='detailes-container'>
-                        <div className='camera-icon'>
-                            <MdOutlinePhotoCamera />
+                        <div className='camera-icon-container'>
+                            <MdOutlinePhotoCamera className='camera' />
                         </div>
                         <div className='word-container'>
                             <h3>Moments</h3>
@@ -29,13 +30,13 @@ const Header = () => {
                     </div>
 
                     <div className='images-container'>
-                        <div>
-                            <img src="src/assets/images/weading image.webp" alt="image" />
-                            <img src="/src/assets/images/weading image2.webp" alt="" />
+                        <div className='weading-image-container'>
+                            <img className='weading-image' src="src/assets/images/weading image.webp" alt="image" />
+                            <img className='weading-image position' src="/src/assets/images/weading image2.webp" alt="" />
                         </div>
                     </div>
-                    <div>
-                        <CiHeart />
+                    <div className='ontop-container'>
+                        <FaHeart className='heart-icon' />
                         <p>124 Shared</p>
                     </div>
                 </div>

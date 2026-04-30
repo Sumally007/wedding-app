@@ -58,6 +58,7 @@
 }
 
 .contribution-container {
+    font-family: "Oxygen", sans-serif;
     width: 100%;
     padding: 4% 10% 5% 10%;
     display: flex;
@@ -67,8 +68,78 @@
 
 .moment-container {
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
+    background-color: lab(9.47104% -.986107 -5.72878);
+    /* display: flex; */
+}
+
+.detailes-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.camera-icon-container {
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #96b8fa42;
+}
+
+.camera {
+    color: lab(56.8475% 3.2759 -65.2818);
+    font-size: 20px;
+
+}
+
+.word-container h3 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.word-container p {
+    color: lab(55.8664% -1.61177 -7.9819);
+    font-size: 11px;
+    line-height: 2;
+}
+
+.weading-image-container {
+    display: flex;
+    gap: 10px;
+}
+
+.weading-image {
+    width: 120px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.position {
+    position: relative;
+    top: 20px;
+}
+
+.ontop-container {
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    width: max-content;
+    gap: 10px;
+    border-radius: 50px;
+    position: relative;
+    top: 5px;
+    left: 70px;
+    background-color: lab(9.47104% -.986107 -5.72878);
+    color: lab(55.8664% -1.61177 -7.9819);
+    font-size: 12px;
+}
+
+.heart-icon {
+    font-size: 18px;
+    fill: rgb(57, 57, 255);
+    stroke: rgb(57, 57, 255);
 }
 
 .live-container {
@@ -80,12 +151,35 @@
 
 .qrcode-container {
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
+    background-color: lab(9.47104% -.986107 -5.72878);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.qrcode-container div img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.qrcode-container div h3 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.qrcode-container div p {
+    color: lab(55.8664% -1.61177 -7.9819);
+    font-size: 11px;
+    line-height: 2
 }
 
 
-img {
+/* img {
     width: 50px;
     height: 50px;
-}
+} */
