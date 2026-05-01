@@ -44,7 +44,7 @@ const Header = () => {
                     <div className='top-container'>
                         <div className='left-container'>
                             <div className='gift-container'>
-                                <CiGift />
+                                <CiGift className='gift-icon' />
                             </div>
                             <div className='text-container'>
                                 <h3>Live Contributions</h3>
@@ -57,10 +57,10 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='middle-container'>
-                        <div>
+                        <div className='middle-container-content'>
                             <div className='profile-detailes'>
                                 <div className='profile-picture'>
-                                    <p>JD</p>
+                                    JD
                                 </div>
                                 <div className='picture-detailes'>
                                     <h3>John Doe</h3>
@@ -68,20 +68,59 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className='amount-conributed'>
-                                <p>+TZS 150,000</p>
+                                <h3>+TZS 150,000</h3>
                             </div>
                         </div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div className='middle-container-content'>
+                            <div className='profile-detailes'>
+                                <div className='profile-picture'>
+                                    SA
+                                </div>
+                                <div className='picture-detailes'>
+                                    <h3>Sarah Adams</h3>
+                                    <p>“Congratulations guys!”</p>
+                                </div>
+                            </div>
+                            <div className='amount-conributed'>
+                                <h3>+TZS 50,000</h3>
+                            </div>
+                        </div>
+                        <div className='middle-container-content'>
+                            <div className='profile-detailes'>
+                                <div className='profile-picture'>
+                                    MK
+                                </div>
+                                <div className='picture-detailes'>
+                                    <h3>Mike & Kim</h3>
+                                    <p>“So happy for you!”</p>
+                                </div>
+                            </div>
+                            <div className='amount-conributed'>
+                                <h3>+TZS 200,000</h3>
+                            </div>
+                        </div>
+                        <div className='middle-container-content'>
+                            <div className='profile-detailes'>
+                                <div className='profile-picture'>
+                                    AN
+                                </div>
+                                <div className='picture-detailes'>
+                                    <h3>Amina Ndungu</h3>
+                                    <p>“Love wins always!”</p>
+                                </div>
+                            </div>
+                            <div className='amount-conributed'>
+                                <h3>+TZS 75,000</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className='bottom-container'>
-                        <div>
-                            <IoIosTrendingUp />
+                        <div className='icon-content'>
+                            <IoIosTrendingUp className='trend-icon' />
                             <p>Total raised</p>
                         </div>
                         <div>
-                            <p>TZS 475,000</p>
+                            <h3>TZS 475,000</h3>
                         </div>
                     </div>
                 </div>
