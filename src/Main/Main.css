@@ -11,7 +11,7 @@
 .left-container-main {
     flex: 1;
     width: 500px;
-    height: 500px;
+    /* height: 500px; */
     border: 0.5px solid gray;
     border-radius: 20px;
     padding: 20px;
@@ -28,6 +28,43 @@
 .top-main-content div p {
     font-size: 13px;
 }
+
+.top-main-content div h2 {
+    font-family: "Geist", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+.top-main-content div h2 span {
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.top-main-content div h2 span .trend-icon {
+    font-size: 13px;
+    position: relative;
+    top: 4px;
+}
+
+.trend-icon-right {
+    font-size: 20px;
+    /* padding: 20px; */
+    border-radius: 15px;
+    color: lab(56.8475% 3.2759 -65.2818);
+    background-color: rgba(96, 109, 227, 0.194);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .first-top-container {
     /* display: flex; */
@@ -74,6 +111,7 @@
 .top-treading-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .bank-flex {
@@ -82,10 +120,41 @@
     gap: 10px;
 }
 
+.bank-note-container {
+    border-radius: 15px;
+    color: lab(56.8475% 3.2759 -65.2818);
+    background-color: rgba(96, 109, 227, 0.194);
+    width: 35px;
+    height: 35px;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .check-flex {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: lab(56.8475% 3.2759 -65.2818);
+}
+
+.check-flex p {
+    color: lab(56.8475% 3.2759 -65.2818);
+}
+
+.starts-heading h2 {
+    font-family: "Geist", sans-serif;
+    color: #fff;
+    display: flex;
+}
+
+.starts-heading h2 p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    font-weight: 300;
+    align-self: flex-end;
 }
 
 .stats-container {
@@ -93,6 +162,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
 
 .first-bar {

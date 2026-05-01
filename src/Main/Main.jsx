@@ -13,7 +13,7 @@ const Main = () => {
                         <p>Total Contributions</p>
                         <h2>2,847 <span><IoIosTrendingUp className='trend-icon' /> 18%</span></h2>
                     </div>
-                    <div><IoIosTrendingUp className='trend-icon' /></div>
+                    <div className='trend-icon-right'><IoIosTrendingUp /></div>
                 </div>
                 <div>
                     <div className='first-top-container'>
@@ -47,7 +47,7 @@ const Main = () => {
                 <div className='treading-container'>
                     <div className='top-treading-container'>
                         <div className='bank-flex'>
-                            <LuBanknote />
+                            <div className='bank-note-container'><LuBanknote className='bank-note' /></div>
                             <p>Weekly Activity</p>
                         </div>
                         <div className='check-flex'>
@@ -55,9 +55,9 @@ const Main = () => {
                             <p>Active</p>
                         </div>
                     </div>
-                    <div>
-                        <h2>450+<span>events this month
-                        </span></h2>
+                    <div className='starts-heading'>
+                        <h2>450+<p>events this month
+                        </p></h2>
                     </div>
                     <div className='stats-container'>
                         <div>
