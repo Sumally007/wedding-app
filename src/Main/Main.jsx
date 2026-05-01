@@ -3,6 +3,8 @@ import "../../src/Main/Main.css";
 import { IoIosTrendingUp } from "react-icons/io";
 import { LuBanknote } from "react-icons/lu";
 import { BsCheck2 } from "react-icons/bs";
+import { CiCamera } from "react-icons/ci";
+import { LuTvMinimalPlay } from "react-icons/lu";
 
 const Main = () => {
     return (
@@ -91,8 +93,43 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div className='right-container-main'>
+            <div className='features-section'>
+                <h1 className="main-title">Everything Your Event Needs in One Place</h1>
+                <p className="subtitle">Whether you want to collect gifts, capture guest memories, or create a more interactive MC experience — Y-Ya brings it together in one simple flow.</p>
 
+                <div className="features-list">
+                    <div className="feature-item">
+                        <div className="icon-box">
+                            <LuBanknote className='icon' />
+                        </div>
+                        <div className="feature-text">
+                            <h3>Receive Gifts With Ease</h3>
+                            <p>Guests scan the QR code, copy your lipa number, send their gift through mobile money, and submit their name, amount, and message in seconds.</p>
+                        </div>
+                    </div>
+
+
+                    <div className="feature-item">
+                        <div className="icon-box">
+                            <CiCamera className='icon' />
+                        </div>
+                        <div className="feature-text">
+                            <h3>Collect Every Moment</h3>
+                            <p>Let guests upload photos and videos from their phones so you gather authentic memories from every angle of the event.</p>
+                        </div>
+                    </div>
+
+
+                    <div className="feature-item">
+                        <div className="icon-box">
+                            <LuTvMinimalPlay className='icon' />
+                        </div>
+                        <div className="feature-text">
+                            <h3>Bring Contributions to Life</h3>
+                            <p>Contributions appear on the live MC feed as they come in. Keep the crowd engaged with instant shoutouts and celebration moments.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
