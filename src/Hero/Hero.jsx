@@ -3,74 +3,50 @@ import "../../src/Hero/Hero.css";
 
 const Hero = () => {
     return (
-        <section class="hero-container">
-            <div class="text-content">
+        <section className="hero-container">
+            <div className="text-content">
                 <p>Perfect for every celebration — trusted by event organizers to make gifting, photo sharing, and live engagement seamless.</p>
             </div>
 
-            <div class="tags-wrapper">
-                <div class="tags-track">
-                    <div class="tag-pill">
-                        <span class="icon">🎓</span>
+            <div className="tags-wrapper">
+                <div className="tags-track">
+                    <div className="tag-pill">
+                        <span className="icon">🎓</span>
                         Graduations
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">🤝</span>
+                    <div className="tag-pill">
+                        <span className="icon">🤝</span>
                         Fundraisers
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">⛪</span>
+                    <div className="tag-pill">
+                        <span className="icon">⛪</span>
                         Community Events
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
+                    <div className="tag-pill">
+                        <span className="icon">❤️</span>
                         Weddings
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
+
+                </div>
+                <div className="tags-track">
+                    <div className="tag-pill">
+                        <span className="icon">🎓</span>
+                        Graduations
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
+                    <div className="tag-pill">
+                        <span className="icon">🤝</span>
+                        Fundraisers
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
+                    <div className="tag-pill">
+                        <span className="icon">⛪</span>
+                        Community Events
                     </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
-                        Weddings
-                    </div>
-                    <div class="tag-pill">
-                        <span class="icon">❤️</span>
+                    <div className="tag-pill">
+                        <span className="icon">❤️</span>
                         Weddings
                     </div>
                 </div>
+
             </div>
         </section>
     )
