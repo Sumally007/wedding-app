@@ -1,0 +1,59 @@
+.hero-container {
+    font-family: "Oxygen", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 4% 10% 5% 10%;
+    overflow: hidden;
+    gap: 40px;
+    background-color: #0b111a;
+    color: #94a3b8;
+}
+
+.text-content {
+    flex: 0 0 350px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    z-index: 2;
+}
+
+.text-content p {
+    flex: 0 0 350px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    z-index: 2;
+}
+
+.tags-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    overflow: hidden;
+}
+
+.tags-track {
+    display: flex;
+    gap: 10px;
+}
+
+.tag-pill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--pill-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 24px;
+    border-radius: 999px;
+
+    white-space: nowrap;
+    color: var(--text-muted);
+    transition: all 0.3s ease;
+}
+
+.tag-pill .icon {
+    color: var(--accent-blue);
+    display: flex;
+    align-items: center;
+}
