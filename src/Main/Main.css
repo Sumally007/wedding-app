@@ -217,10 +217,12 @@
 .feature-text h3 {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-size: .9rem;
+    font-size: 1rem;
+
 }
 
 .feature-text p {
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1.5;
+    margin-top: 10px;
 }
