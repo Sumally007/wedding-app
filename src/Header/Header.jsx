@@ -126,7 +126,7 @@ const Header = () => {
                 </div>
                 <div className='qrcode-container'>
                     <div>
-                        <img src="src/assets/images/qrcde.webp" alt="image" />
+                        <img src="src/assets/images/Rectangle 9.png" alt="image" />
                     </div>
                     <div>
                         <h3>Free QR Code</h3>
