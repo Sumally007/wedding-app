@@ -31,8 +31,8 @@ const Header = () => {
 
                     <div className='images-container'>
                         <div className='weading-image-container'>
-                            <img className='weading-image' src="src/assets/images/wedding1.jpeg" alt="image" />
-                            <img className='weading-image position' src="/src/assets/images/wedding2.jpeg" alt="" />
+                            <img className='weading-image' src="src/assets/images/Rectangle 9.png" alt="image" />
+                            <img className='weading-image position' src="/src/assets/images/Rectangle 15.png" alt="" />
                         </div>
                     </div>
                     <div className='ontop-container'>
