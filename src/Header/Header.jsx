@@ -31,8 +31,8 @@ const Header = () => {
 
                     <div className='images-container'>
                         <div className='weading-image-container'>
-                            <img className='weading-image' src="src/assets/images/Rectangle 9.png" alt="image" />
-                            <img className='weading-image position' src="/src/assets/images/Rectangle 15.png" alt="" />
+                            <img className='weading-image' src="/images/Rectangle 9.png" alt="image" />
+                            <img className='weading-image position' src="/images/Rectangle 15.png" alt="" />
                         </div>
                     </div>
                     <div className='ontop-container'>
@@ -126,7 +126,7 @@ const Header = () => {
                 </div>
                 <div className='qrcode-container'>
                     <div>
-                        <img src="src/assets/images/Rectangle 9.png" alt="image" />
+                        <img src="/images/Rectangle 9.png" alt="image" />
                     </div>
                     <div>
                         <h3>Free QR Code</h3>
