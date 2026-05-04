@@ -1,0 +1,38 @@
+.accordion {
+    text-align: center;
+    padding: 4% 10% 5% 10%;
+    background-color: lab(4 -0.37 -6.38);
+}
+
+.accordion h1 {
+    font-family: "Geist", sans-serif;
+    color: #fff;
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    margin-top: 15px;
+
+}
+
+.accordion p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 64px;
+    margin-right: 64px;
+    text-align: center;
+}
+
+.accordion p span {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.header-accordion {
+    display: flex;
+}
+
+.icon-toogle {
+    align-self: flex-end;
+}
