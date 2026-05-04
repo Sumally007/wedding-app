@@ -10,9 +10,11 @@ const Accordion = () => {
                 <h1>Frequently Asked Questions</h1>
                 <p>These are the most common questions about Y-Ya.</p>
                 <p>Can't find what you're looking for? <span>Chat to our friendly team!</span></p>
-                {AccordionData.map(({ title, content, icon, id }) => (
-                    <AccordionComponet title={title} content={content} id={id} icon={icon} />
-                ))}
+                <div className="accordion-card-container">
+                    {AccordionData.map(({ title, content, icon, id }) => (
+                        <AccordionComponet title={title} content={content} id={id} icon={icon} />
+                    ))}
+                </div>
             </div>
         </section>
     )
@@ -22,7 +24,7 @@ const AccordionComponet = ({ title, content, icon, id }) => {
     const [isActive, setIsActive] = useState(false);
     const Icon = icon;
 
-    return <section className='accordion-card' key={id}>
+    return <div className='accordion-card' key={id}>
         <div className="header-accordion" onClick={() => setIsActive(!isActive)}>
             <div><Icon /></div>
             <div>{title}</div>
@@ -32,7 +34,7 @@ const AccordionComponet = ({ title, content, icon, id }) => {
         <div className="content-accordion">
             {isActive && <p className='card-info'>{content}</p>}
         </div>
-    </section>
+    </div>
 }
 
 export default Accordion
