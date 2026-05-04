@@ -26,8 +26,10 @@ const AccordionComponet = ({ title, content, icon, id }) => {
 
     return <div className='accordion-card' key={id}>
         <div className="header-accordion" onClick={() => setIsActive(!isActive)}>
-            <div><Icon /></div>
-            <div>{title}</div>
+            <div className='left-accordion'>
+                <div className='icon-box'><Icon className="icon" /></div>
+                <div className='head-title-box'><h3 className='head-title'>{title}</h3></div>
+            </div>
             <p className='icon-toogle'>{isActive ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</p>
         </div>
 

@@ -30,34 +30,51 @@
 }
 
 .accordion-card-container {
-    /* 
-    width: 75%; */
+    color: #fff;
     width: 100%;
-    margin-top: 3rem;
+    padding: 3rem 13rem;
 }
 
 .accordion-card {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* margin-top: 30px;
-    display: flex;
-    
-    */
+    border-bottom: .3px solid lab(55.8664% -1.61177 -7.9819);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .header-accordion {
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-accordion {
+    display: flex;
+    align-items: center;
+}
+
+.head-title {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1rem;
+    margin-left: 20px;
+    font-weight: 500;
 }
 
 
-.icon-toogle {
-    flex: 1;
+.header-accordion .icon-toogle {
+    margin: 0;
 }
 
 .content-accordion .card-info {
     text-align: start;
     margin: 0;
+    margin-left: 4.5rem;
+    font-size: .9rem;
+    /* line-height: 0; */
+    margin-top: 10px;
+
 }
