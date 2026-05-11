@@ -36,10 +36,10 @@ const Started = () => {
                 <div className='right-started-content'>
                     <div className="circle-container">
                         <div className='profile-picture'>AK</div>
-                        <div className='profile-picture'>BM</div>
-                        <div className='profile-picture'>CD</div>
-                        <div className='profile-picture'>EN</div>
-                        <div className='profile-picture'>+500</div>
+                        <div className='profile-picture ontop-circle'>BM</div>
+                        <div className='profile-picture ontop-circle-sec'>CD</div>
+                        <div className='profile-picture ontop-circle-thr'>EN</div>
+                        <div className='profile-picture little-right'>+500</div>
                     </div>
                     <h3>Event organizers already trust Y-Ya. Join them!</h3>
                     <p>Perfect for weddings, send-offs, celebrations, and fundraisers. One QR code for everything.</p>
