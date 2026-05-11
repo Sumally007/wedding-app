@@ -38,6 +38,12 @@
     color: #3790fe;
 }
 
+.left-started-content .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .sub-intro {
     font-size: .9rem;
     line-height: 1.8;
@@ -48,10 +54,44 @@
     padding: 40px;
     width: 288px;
     background-color: lab(56.8475% 3.2759 -65.2818);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.icon-box {
+    align-self: center;
+}
+
+.icon-code {
+    font-size: 30px;
+    color: #fff;
+}
+
+.span-circle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.span-circle div {
+    height: 4px;
+    width: 4px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.icon-flex {
+    display: flex;
+    gap: 20px;
 }
 
 .middile-started-content .icon-box .icon {
-    fill: #fff;
+    /* fill: #fff; */
+    color: #fff;
 }
 
 .right-started-content {

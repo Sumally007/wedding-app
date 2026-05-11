@@ -17,18 +17,20 @@ const Started = () => {
                 </div>
                 <div className='middile-started-content'>
                     <div className="icon-box">
-                        <LuQrCode className='icon' />
+                        <LuQrCode className='icon icon-code' />
                     </div>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div className='span-circle'>
+                        <div></div>
+                        <div></div>
+                        <div></div>
                     </div>
-                    <div className="icon-box">
-                        <CiGift className='icon' />
-                    </div>
-                    <div className="icon-box">
-                        <CiCamera className='icon' />
+                    <div className="icon-flex">
+                        <div className="icon-box">
+                            <CiGift className='icon' />
+                        </div>
+                        <div className="icon-box">
+                            <CiCamera className='icon' />
+                        </div>
                     </div>
                 </div>
                 <div className='right-started-content'>

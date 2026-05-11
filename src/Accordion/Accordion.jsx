@@ -12,7 +12,7 @@ const Accordion = () => {
                 <p>Can't find what you're looking for? <span>Chat to our friendly team!</span></p>
                 <div className="accordion-card-container">
                     {AccordionData.map(({ title, content, icon, id }) => (
-                        <AccordionComponet title={title} content={content} id={id} icon={icon} />
+                        <AccordionComponet title={title} content={content} key={id} icon={icon} />
                     ))}
                 </div>
             </div>
