@@ -7,6 +7,7 @@ import HowItWorks from './HowItWorks/HowItWorks'
 import Accordion from './Accordion/Accordion'
 import { AccordionData } from './Accordion/AccordionData'
 import Started from './Started/Started'
+import Footer from './Footer/Footer'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
     <HowItWorks />
     <Accordion />
     <Started />
+    <Footer />
   </>
   )
 }

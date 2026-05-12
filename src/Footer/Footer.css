@@ -1,0 +1,54 @@
+.footer-section {
+    padding: 4% 10% 1.5% 10%;
+    background-color: #080a0d;
+    color: #fff;
+    font-family: "Oxygen", sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 60px;
+}
+
+.footer-top li {
+    color: lab(55.8664% -1.61177 -7.9819);
+    list-style: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 20px;
+}
+
+.footer-top li:hover {
+    color: #fff;
+}
+
+.about-container p {
+    font-size: .9rem;
+    line-height: 1.8;
+    width: 272px;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    font-size: .9rem;
+}
+
+.par-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: .9rem;
+}
+
+.par-icon .icon-heart {
+    fill: lab(56.8475% 3.2759 -65.2818);
+    color: lab(56.8475% 3.2759 -65.2818);
+}
