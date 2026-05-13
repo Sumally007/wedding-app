@@ -13,7 +13,7 @@ const Header = () => {
         { id: 2, name: "Sarah Adams", comment: "Congratulations guys!", amount: "+TZS 50,000", profile: "SA" },
         { id: 3, name: "Mike & Kim", comment: "So happy for you!", amount: "+TZS 200,000", profile: "MK" },
         { id: 4, name: "Amina Ndungu", comment: "Love wins always!", amount: "+TZS 75,000", profile: "AN" }
-    ]
+    ];
 
     return (
         <section className='header-sect'>

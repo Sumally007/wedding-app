@@ -2,6 +2,13 @@ import React from 'react'
 import "../../src/Hero/Hero.css";
 
 const Hero = () => {
+    const TagData = [
+        { id: 1, name: "Graduations", icon: "🎓" },
+        { id: 2, name: "Fundraisers", icon: "🤝" },
+        { id: 3, name: "Community Events", icon: "⛪" },
+        { id: 4, name: "Weddings", icon: "❤️" }
+    ];
+
     return (
         <section className="hero-container">
             <div className="text-content">
@@ -10,45 +17,27 @@ const Hero = () => {
 
             <div className="tags-wrapper">
                 <div className="tags-track">
-                    <div className="tag-pill">
-                        <span className="icon">🎓</span>
-                        Graduations
-                    </div>
-                    <div className="tag-pill">
-                        <span className="icon">🤝</span>
-                        Fundraisers
-                    </div>
-                    <div className="tag-pill">
-                        <span className="icon">⛪</span>
-                        Community Events
-                    </div>
-                    <div className="tag-pill">
-                        <span className="icon">❤️</span>
-                        Weddings
-                    </div>
-
+                    {TagData.map((item) => (
+                        <TagComponent key={item.id} item={item} />
+                    ))}
                 </div>
                 <div className="tags-track">
-                    <div className="tag-pill">
-                        <span className="icon">🎓</span>
-                        Graduations
-                    </div>
-                    <div className="tag-pill">
-                        <span className="icon">🤝</span>
-                        Fundraisers
-                    </div>
-                    <div className="tag-pill">
-                        <span className="icon">⛪</span>
-                        Community Events
-                    </div>
-                    <div className="tag-pill">
-                        <span className="icon">❤️</span>
-                        Weddings
-                    </div>
+                    {TagData.map((item) => (
+                        <TagComponent key={item.id} item={item} />
+                    ))}
                 </div>
 
             </div>
         </section>
+    )
+}
+
+const TagComponent = ({ item }) => {
+    return (
+        <div className="tag-pill">
+            <span className="icon">{item.icon}</span>
+            {item.name}
+        </div>
     )
 }
 
