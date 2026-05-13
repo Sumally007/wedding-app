@@ -8,6 +8,13 @@ import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa6";
 
 const Header = () => {
+    const MiddleData = [
+        { id: 1, name: "John Doe", comment: "Wishing you the best!", amount: "+TZS 150,000", profile: "JD" },
+        { id: 2, name: "Sarah Adams", comment: "Congratulations guys!", amount: "+TZS 50,000", profile: "SA" },
+        { id: 3, name: "Mike & Kim", comment: "So happy for you!", amount: "+TZS 200,000", profile: "MK" },
+        { id: 4, name: "Amina Ndungu", comment: "Love wins always!", amount: "+TZS 75,000", profile: "AN" }
+    ]
+
     return (
         <section className='header-sect'>
             <h1 className='heading'>Every Event Moment, <span>Seamlessly Connected</span></h1>
@@ -57,62 +64,9 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='middle-container'>
-                        <div className='middle-container-content'>
-                            <div className='profile-detailes'>
-                                <div className='profile-picture'>
-                                    JD
-                                </div>
-                                <div className='picture-detailes'>
-                                    <h3>John Doe</h3>
-                                    <p>“Wishing you the best!”</p>
-                                </div>
-                            </div>
-                            <div className='amount-conributed'>
-                                <h3>+TZS 150,000</h3>
-                            </div>
-                        </div>
-                        <div className='middle-container-content'>
-                            <div className='profile-detailes'>
-                                <div className='profile-picture'>
-                                    SA
-                                </div>
-                                <div className='picture-detailes'>
-                                    <h3>Sarah Adams</h3>
-                                    <p>“Congratulations guys!”</p>
-                                </div>
-                            </div>
-                            <div className='amount-conributed'>
-                                <h3>+TZS 50,000</h3>
-                            </div>
-                        </div>
-                        <div className='middle-container-content'>
-                            <div className='profile-detailes'>
-                                <div className='profile-picture'>
-                                    MK
-                                </div>
-                                <div className='picture-detailes'>
-                                    <h3>Mike & Kim</h3>
-                                    <p>“So happy for you!”</p>
-                                </div>
-                            </div>
-                            <div className='amount-conributed'>
-                                <h3>+TZS 200,000</h3>
-                            </div>
-                        </div>
-                        <div className='middle-container-content'>
-                            <div className='profile-detailes'>
-                                <div className='profile-picture'>
-                                    AN
-                                </div>
-                                <div className='picture-detailes'>
-                                    <h3>Amina Ndungu</h3>
-                                    <p>“Love wins always!”</p>
-                                </div>
-                            </div>
-                            <div className='amount-conributed'>
-                                <h3>+TZS 75,000</h3>
-                            </div>
-                        </div>
+                        {MiddleData.map((item) => (
+                            <MiddleComponent key={item.id} item={item} />
+                        ))}
                     </div>
                     <div className='bottom-container'>
                         <div className='icon-content'>
@@ -136,6 +90,25 @@ const Header = () => {
             </div>
 
         </section>
+    )
+}
+
+const MiddleComponent = ({ item }) => {
+    return (
+        <div className='middle-container-content'>
+            <div className='profile-detailes'>
+                <div className='profile-picture'>
+                    {item.profile}
+                </div>
+                <div className='picture-detailes'>
+                    <h3>{item.name}</h3>
+                    <p>{item.comment}</p>
+                </div>
+            </div>
+            <div className='amount-conributed'>
+                <h3>{item.amount}</h3>
+            </div>
+        </div>
     )
 }
 
