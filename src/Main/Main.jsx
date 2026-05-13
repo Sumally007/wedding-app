@@ -7,6 +7,28 @@ import { CiCamera } from "react-icons/ci";
 import { LuTvMinimalPlay } from "react-icons/lu";
 
 const Main = () => {
+    const barData = [
+        { id: 1, stats: "Gifts Collected", percent: "78%" },
+        { id: 2, stats: "Photos Shared", percent: "64%" },
+        { id: 3, stats: "Live Views", percent: "92%" }
+    ];
+
+    const dateData = [
+        { id: 1, day: "Mon" },
+        { id: 2, day: "Tue" },
+        { id: 3, day: "Wed" },
+        { id: 4, day: "Thu" },
+        { id: 5, day: "Fir" },
+        { id: 6, day: "Sat" },
+        { id: 7, day: "Sun" },
+    ];
+
+    const featureData = [
+        { id: 1, heading: "Receive Gifts With Ease", comment: "Guests scan the QR code, copy your lipa number, send their gift through mobile money, and submit their name, amount, and message in seconds.", icon: <LuBanknote className='icon' /> },
+        { id: 1, heading: "Collect Every Moment", comment: "Let guests upload photos and videos from their phones so you gather authentic memories from every angle of the event.", icon: <CiCamera className='icon' /> },
+        { id: 1, heading: "Bring Contributions to Life", comment: "Contributions appear on the live MC feed as they come in. Keep the crowd engaged with instant shoutouts and celebration moments.", icon: <LuTvMinimalPlay className='icon' /> }
+    ]
+
     return (
         <section className='everything'>
             <div className='left-container-main'>
@@ -18,33 +40,9 @@ const Main = () => {
                     <div className='trend-icon-right'><IoIosTrendingUp /></div>
                 </div>
                 <div>
-                    <div className='first-top-container'>
-                        <div className='gift-container-top'>
-                            <p>Gifts Collected</p>
-                            <p className='numb'>78%</p>
-                        </div>
-                        <div className='outside-bar'>
-                            <div className='inside-bar'></div>
-                        </div>
-                    </div>
-                    <div className='first-top-container'>
-                        <div className='gift-container-top'>
-                            <p>Photos Shared</p>
-                            <p className='numb'>78%</p>
-                        </div>
-                        <div className='outside-bar'>
-                            <div className='inside-bar'></div>
-                        </div>
-                    </div>
-                    <div className='first-top-container'>
-                        <div className='gift-container-top'>
-                            <p>Live Views</p>
-                            <p className='numb'>78%</p>
-                        </div>
-                        <div className='outside-bar'>
-                            <div className='inside-bar'></div>
-                        </div>
-                    </div>
+                    {barData.map((item) => (
+                        <BarComponent key={item.id} item={item} />
+                    ))}
                 </div>
                 <div className='treading-container'>
                     <div className='top-treading-container'>
@@ -62,34 +60,9 @@ const Main = () => {
                         </p></h2>
                     </div>
                     <div className='stats-container'>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Mon</p>
-                        </div>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Tue</p>
-                        </div>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Wed</p>
-                        </div>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Thu</p>
-                        </div>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Fri</p>
-                        </div>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Sat</p>
-                        </div>
-                        <div>
-                            <div className='first-bar'></div>
-                            <p>Sun</p>
-                        </div>
+                        {dateData.map((item) => (
+                            <DateComponent key={item.id} item={item} />
+                        ))}
                     </div>
                 </div>
             </div>
@@ -98,40 +71,49 @@ const Main = () => {
                 <p className="subtitle">Whether you want to collect gifts, capture guest memories, or create a more interactive MC experience — Y-Ya brings it together in one simple flow.</p>
 
                 <div className="features-list">
-                    <div className="feature-item">
-                        <div className="icon-box">
-                            <LuBanknote className='icon' />
-                        </div>
-                        <div className="feature-text">
-                            <h3>Receive Gifts With Ease</h3>
-                            <p>Guests scan the QR code, copy your lipa number, send their gift through mobile money, and submit their name, amount, and message in seconds.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="feature-item">
-                        <div className="icon-box">
-                            <CiCamera className='icon' />
-                        </div>
-                        <div className="feature-text">
-                            <h3>Collect Every Moment</h3>
-                            <p>Let guests upload photos and videos from their phones so you gather authentic memories from every angle of the event.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="feature-item">
-                        <div className="icon-box">
-                            <LuTvMinimalPlay className='icon' />
-                        </div>
-                        <div className="feature-text">
-                            <h3>Bring Contributions to Life</h3>
-                            <p>Contributions appear on the live MC feed as they come in. Keep the crowd engaged with instant shoutouts and celebration moments.</p>
-                        </div>
-                    </div>
+                    {featureData.map((item) => (
+                        <FeatureComponent key={item.id} item={item} />
+                    ))}
                 </div>
             </div>
         </section>
+    )
+}
+
+const BarComponent = ({ item }) => {
+    return (
+        <div className='first-top-container'>
+            <div className='gift-container-top'>
+                <p>{item.stats}</p>
+                <p className='numb'>{item.percent}</p>
+            </div>
+            <div className='outside-bar'>
+                <div className='inside-bar'></div>
+            </div>
+        </div>
+    )
+};
+
+const DateComponent = ({ item }) => {
+    return (
+        <div>
+            <div className='first-bar'></div>
+            <p>{item.day}</p>
+        </div>
+    )
+};
+
+const FeatureComponent = ({ item }) => {
+    return (
+        <div className="feature-item">
+            <div className="icon-box">
+                {item.icon}
+            </div>
+            <div className="feature-text">
+                <h3>{item.heading}</h3>
+                <p>{item.comment}</p>
+            </div>
+        </div>
     )
 }
 
