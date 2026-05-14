@@ -20,13 +20,13 @@ const Main = () => {
         { id: 4, day: "Thu" },
         { id: 5, day: "Fir" },
         { id: 6, day: "Sat" },
-        { id: 7, day: "Sun" },
+        { id: 7, day: "Sun" }
     ];
 
     const featureData = [
         { id: 1, heading: "Receive Gifts With Ease", comment: "Guests scan the QR code, copy your lipa number, send their gift through mobile money, and submit their name, amount, and message in seconds.", icon: <LuBanknote className='icon' /> },
-        { id: 1, heading: "Collect Every Moment", comment: "Let guests upload photos and videos from their phones so you gather authentic memories from every angle of the event.", icon: <CiCamera className='icon' /> },
-        { id: 1, heading: "Bring Contributions to Life", comment: "Contributions appear on the live MC feed as they come in. Keep the crowd engaged with instant shoutouts and celebration moments.", icon: <LuTvMinimalPlay className='icon' /> }
+        { id: 2, heading: "Collect Every Moment", comment: "Let guests upload photos and videos from their phones so you gather authentic memories from every angle of the event.", icon: <CiCamera className='icon' /> },
+        { id: 3, heading: "Bring Contributions to Life", comment: "Contributions appear on the live MC feed as they come in. Keep the crowd engaged with instant shoutouts and celebration moments.", icon: <LuTvMinimalPlay className='icon' /> }
     ]
 
     return (
