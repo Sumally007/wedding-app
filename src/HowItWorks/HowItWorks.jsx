@@ -10,7 +10,7 @@ import Buttons from '../Components/Buttons';
 const HowItWorks = () => {
     const cardData = [
         { id: 1, heading: "Contact Y-Ya", comment: "Reach out to wire your event and tell us what kind of celebration you are planning.", icon: <IoCallOutline className='icon' /> },
-        { id: 2, heading: "Share Event Details", comment: "Provide event name, date, time, image, contact number, and your temporary lipa number.", icon: <GrDocumentText className='icon icon-active' /> },
+        { id: 2, heading: "Share Event Details", comment: "Provide event name, date, time, image, contact number, and your temporary lipa number.", icon: <GrDocumentText className='icon icon-active' />, color: "lab(57 3.31 -65.44)" },
         { id: 3, heading: "We Set Everything Up", comment: "Y-Ya creates your event page, QR code, and the features included in your package.", icon: <IoSettingsOutline className='icon' /> },
         { id: 4, heading: "Guests Scan & Celebrate", comment: "Guests scan the QR code to send gifts, upload moments, and join the live celebration.", icon: <LuScanLine className='icon' /> }
     ]
@@ -52,7 +52,7 @@ const HowItWorks = () => {
 
 const CardComponent = ({ item }) => {
     return (
-        <div className="card">
+        <div className="card" style={{ backgroundColor: item.color ? item.color : 'transparent' }}>
             <div className="icon-box">
                 {item.icon}
             </div>

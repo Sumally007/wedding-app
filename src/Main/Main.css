@@ -92,7 +92,6 @@
 }
 
 .inside-bar {
-    width: 78%;
     height: 100%;
     background-color: lab(56.8475% 3.2759 -65.2818);
     border-radius: 10px;
@@ -156,7 +155,7 @@
 .stats-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     text-align: center;
     margin-top: 20px;
 }

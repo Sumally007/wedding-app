@@ -14,13 +14,13 @@ const Main = () => {
     ];
 
     const dateData = [
-        { id: 1, day: "Mon" },
-        { id: 2, day: "Tue" },
-        { id: 3, day: "Wed" },
-        { id: 4, day: "Thu" },
-        { id: 5, day: "Fir" },
-        { id: 6, day: "Sat" },
-        { id: 7, day: "Sun" }
+        { id: 1, day: "Mon", height: "32.1882px" },
+        { id: 2, day: "Tue", height: "44.0471px" },
+        { id: 3, day: "Wed", height: "37.2706px" },
+        { id: 4, day: "Thu", height: "59.2941px" },
+        { id: 5, day: "Fir", height: "52.5176px" },
+        { id: 6, day: "Sat", height: "72px", color: "lab(57 3.31 -65.44)" },
+        { id: 7, day: "Sun", height: "62.6824px" }
     ];
 
     const featureData = [
@@ -41,7 +41,10 @@ const Main = () => {
                 </div>
                 <div>
                     {barData.map((item) => (
-                        <BarComponent key={item.id} item={item} />
+                        <BarComponent
+                            key={item.id}
+                            item={item}
+                        />
                     ))}
                 </div>
                 <div className='treading-container'>
@@ -80,7 +83,9 @@ const Main = () => {
     )
 }
 
-const BarComponent = ({ item }) => {
+const BarComponent = ({ item, classPoint }) => {
+    let classSelector = classPoint;
+
     return (
         <div className='first-top-container'>
             <div className='gift-container-top'>
@@ -88,7 +93,7 @@ const BarComponent = ({ item }) => {
                 <p className='numb'>{item.percent}</p>
             </div>
             <div className='outside-bar'>
-                <div className='inside-bar'></div>
+                <div className="inside-bar" style={{ width: item.percent }}></div>
             </div>
         </div>
     )
@@ -97,7 +102,7 @@ const BarComponent = ({ item }) => {
 const DateComponent = ({ item }) => {
     return (
         <div>
-            <div className='first-bar'></div>
+            <div className='first-bar' style={{ height: item.height, backgroundColor: item.color ? item.color : 'lab(21 -2.36 -19.67)' }}></div>
             <p>{item.day}</p>
         </div>
     )

@@ -118,7 +118,7 @@ const MiddleComponent = ({ item }) => {
                 </div>
             </div>
             <div className='amount-conributed'>
-                <h3>{item.amount}</h3>
+                <h3 style={{ color: "lab(57 3.31 -65.44)" }}>{item.amount}</h3>
             </div>
         </div>
     )

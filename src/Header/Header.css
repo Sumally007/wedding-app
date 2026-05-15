@@ -19,7 +19,7 @@
 }
 
 .heading span {
-    color: rgb(54, 54, 255);
+    color: lab(57 3.31 -65.44);
 }
 
 .content {
@@ -44,7 +44,7 @@
     outline: none;
     padding: 15px 40px;
     border-radius: 50px;
-    background-color: rgb(54, 54, 255);
+    background-color: lab(57 3.31 -65.44);
     color: #fff;
     font-size: 16px;
     font-weight: 700;
