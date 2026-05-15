@@ -3,6 +3,7 @@ import "../../src/HowItWorks/HowItWorks.css";
 import { IoCallOutline, IoSettingsOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { LuScanLine } from "react-icons/lu";
+import Buttons from '../Components/Buttons';
 
 
 
@@ -37,7 +38,12 @@ const HowItWorks = () => {
 
             </div>
             <div className='footer-works-section'>
-                <button className='btn'>Wire an Event</button>
+                {/* <button className='btn'>Wire an Event</button> */}
+
+                <Buttons words="Wire an Event"
+                    classname="btn" >
+                </Buttons>
+
                 <p>We help you set everything up before the big day</p>
             </div>
         </section>

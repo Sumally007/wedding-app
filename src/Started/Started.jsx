@@ -2,6 +2,8 @@ import React from 'react'
 import { LuArrowUpRight, LuQrCode } from "react-icons/lu";
 import { CiGift, CiCamera } from "react-icons/ci";
 import "../../src/Started/Started.css";
+import Buttons from '../Components/Buttons';
+
 
 
 
@@ -13,7 +15,13 @@ const Started = () => {
                     <p className='top-header'>Let's get started</p>
                     <h1>Make Your Next Event <span>Unforgettable</span></h1>
                     <p className='sub-intro'>Talk to us early so your event can be set up and ready before the big day.</p>
-                    <button className='btn'>Wire an Event <LuArrowUpRight /></button>
+                    <Buttons
+                        words="Wire an Event"
+                        icon={<LuArrowUpRight />}
+                        classname="btn"
+                    >
+                    </Buttons>
+                    {/* <button className='btn'>Wire an Event <LuArrowUpRight /></button> */}
                 </div>
                 <div className='middile-started-content'>
                     <div className="icon-box">
@@ -44,9 +52,21 @@ const Started = () => {
                     <h3>Event organizers already trust Y-Ya. Join them!</h3>
                     <p>Perfect for weddings, send-offs, celebrations, and fundraisers. One QR code for everything.</p>
                     <div className="buttons-container">
-                        <button>WhatsApp</button>
-                        <button>Instagram</button>
-                        <button>TikTok</button>
+                        {/* <button className='btn-social'>WhatsApp</button>
+                        <button className='btn-social'>Instagram</button>
+                        <button className='btn-social'>TikTok</button> */}
+                        <Buttons
+                            words="WhatsApp"
+                            classname="btn-social"
+                        />
+                        <Buttons
+                            words="Instagram"
+                            classname="btn-social"
+                        />
+                        <Buttons
+                            words="TikTok"
+                            classname="btn-social"
+                        />
                     </div>
                 </div>
             </div>

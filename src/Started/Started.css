@@ -156,7 +156,7 @@
     margin-bottom: 20px;
 }
 
-.buttons-container button {
+.buttons-container .btn-social {
     font-family: "Oxygen", sans-serif;
     padding: 10px 20px;
     outline: none;
