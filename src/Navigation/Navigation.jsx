@@ -1,5 +1,9 @@
 import React from 'react'
 import "../../src/Navigation/Navigation.css";
+import List from '../Components/List/ListComponent';
+import { ListData, ListCompany, ListConnect } from '../Components/List/ListData';
+
+
 const Navigation = () => {
     return (
         <nav className='navigation'>
@@ -10,9 +14,9 @@ const Navigation = () => {
                 </div>
                 <div className='list-container'>
                     <ul className="list-items">
-                        <li>Features</li>
-                        <li>How It Works</li>
-                        <li>FAQ</li>
+                        {ListData.map((item) => (
+                            <List key={item.id} item={item} />
+                        ))}
                     </ul>
                 </div>
                 <div className='btn-container'>
@@ -23,4 +27,4 @@ const Navigation = () => {
     )
 }
 
-export default Navigation
+export default Navigation;

@@ -1,6 +1,8 @@
 import React from 'react'
 import "../../src/Footer/Footer.css";
 import { FaHeart } from "react-icons/fa";
+import List from '../Components/List/ListComponent';
+import { ListData, ListCompany, ListConnect } from '../Components/List/ListData';
 
 const Footer = () => {
     return (
@@ -16,26 +18,25 @@ const Footer = () => {
                 <div className="product-container">
                     <h4>Product</h4>
                     <ul>
-                        <li>Features</li>
-                        <li>How It Works</li>
-                        <li>FAQ</li>
+                        {ListData.map((item) => (
+                            <List key={item.id} item={item} />
+                        ))}
                     </ul>
                 </div>
                 <div className="company-container">
                     <h4>Company</h4>
                     <ul>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Privacy Policy</li>
+                        {ListCompany.map((item) => (
+                            <List key={item.id} item={item} />
+                        ))}
                     </ul>
                 </div>
                 <div className="contact-container">
                     <h4>Connect</h4>
                     <ul>
-                        <li>WhatsApp</li>
-                        <li>Instagram</li>
-                        <li>TikTok</li>
-                        <li>Phone: 0779 710 130</li>
+                        {ListConnect.map((item) => (
+                            <List key={item.id} item={item} />
+                        ))}
                     </ul>
                 </div>
             </div>
