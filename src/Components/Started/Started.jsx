@@ -52,9 +52,6 @@ const Started = () => {
                     <h3>Event organizers already trust Y-Ya. Join them!</h3>
                     <p>Perfect for weddings, send-offs, celebrations, and fundraisers. One QR code for everything.</p>
                     <div className="buttons-container">
-                        {/* <button className='btn-social'>WhatsApp</button>
-                        <button className='btn-social'>Instagram</button>
-                        <button className='btn-social'>TikTok</button> */}
                         <Buttons
                             words="WhatsApp"
                             classname="btn-social"

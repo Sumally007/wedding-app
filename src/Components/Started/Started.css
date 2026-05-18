@@ -28,6 +28,11 @@
     align-items: start;
     font-family: "Oxygen", sans-serif;
     background-color: #161b22;
+
+
+    @media (max-width:480px) {
+        padding: 30px;
+    }
 }
 
 .top-header {
@@ -128,6 +133,7 @@
     @media (max-width:480px) {
         background-color: #161b22;
         border-top: 1px solid grey;
+        padding: 30px;
     }
 }
 
@@ -177,7 +183,10 @@
     margin-bottom: 20px;
 }
 
-.buttons-container {
+.right-started-content .buttons-container {
+    display: flex;
+    gap: 15px;
+
     @media (max-width:480px) {
         margin-bottom: 0;
     }

@@ -48,12 +48,12 @@
     }
 }
 
-.buttons-container {
+.header-sect .buttons-container {
     display: flex;
     gap: 10px;
 
     @media (max-width:480px) {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 }
 

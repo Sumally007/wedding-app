@@ -21,13 +21,11 @@ const Header = () => {
             <h1 className='heading'>Every Event Moment, <span>Seamlessly Connected</span></h1>
             <p className='content'>Give your guests the easiest way to share photos, send mobile money gifts, and celebrate together — all from one simple scan.</p>
             <div className='buttons-container'>
-                {/* <button className='btn'>Wire an Event</button> */}
+
                 <Buttons
                     words="Wire an Event"
                     classname="btn" >
                 </Buttons>
-
-                {/* <button className='btn btn-icon'><FiMessageSquare className='message-icon' /> <span>Contanct Us</span></button> */}
 
                 <Buttons
                     words={<span>Contact Us</span>}
