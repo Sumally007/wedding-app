@@ -1,7 +1,7 @@
 import React from 'react'
-import "../../src/Navigation/Navigation.css";
-import List from '../Components/List/ListComponent';
-import { ListData, ListCompany, ListConnect } from '../Components/List/ListData';
+import "./Navigation.css";
+import List from '../List/ListComponent';
+import { ListData, ListCompany, ListConnect } from '../List/ListData';
 
 
 const Navigation = () => {

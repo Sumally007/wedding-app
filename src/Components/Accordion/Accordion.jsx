@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../../src/Accordion/Accordion.css";
+import "./Accordion.css";
 import { AccordionData } from './AccordionData'
 import { MdOutlineKeyboardArrowUp, MdOutlineKeyboardArrowDown } from "react-icons/md";
 

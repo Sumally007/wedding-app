@@ -7,20 +7,27 @@
     gap: 40px;
     background-color: lab(4 -0.37 -6.38);
     color: #94a3b8;
+
+    @media (max-width:480px) {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
 }
 
 .text-content {
     flex: 0 0 350px;
     line-height: 1.6;
-    color: var(--text-muted);
     z-index: 2;
+
+    @media (max-width:480px) {
+        flex: 1;
+    }
 }
 
 .text-content p {
     flex: 0 0 350px;
     font-size: 16px;
     line-height: 1.6;
-    color: var(--text-muted);
     z-index: 2;
 }
 

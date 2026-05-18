@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../src/Main/Main.css";
+import "./Main.css";
 import { IoIosTrendingUp } from "react-icons/io";
 import { LuBanknote } from "react-icons/lu";
 import { BsCheck2 } from "react-icons/bs";

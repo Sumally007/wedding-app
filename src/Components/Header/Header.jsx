@@ -1,12 +1,12 @@
 import React from 'react'
-import "../../src/Header/Header.css";
+import "./Header.css";
 import { MdOutlinePhotoCamera } from "react-icons/md";
 import { CiGift } from "react-icons/ci";
 import { FiMessageSquare } from "react-icons/fi";
 import { IoIosTrendingUp } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa6";
-import Buttons from '../Components/Buttons';
+import Buttons from '../Buttons';
 
 const Header = () => {
     const MiddleData = [

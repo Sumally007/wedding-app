@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../src/Hero/Hero.css";
+import "./Hero.css";
 
 const Hero = () => {
     const TagData = [

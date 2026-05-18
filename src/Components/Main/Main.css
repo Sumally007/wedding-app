@@ -5,6 +5,11 @@
     gap: 60px;
     padding: 8% 10% 9% 10%;
     background-color: lab(3 -0.2 -1.43);
+
+    @media (max-width:480px) {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
 }
 
 
@@ -15,6 +20,10 @@
     border-radius: 20px;
     padding: 20px;
     background-color: lab(9.47104% -.986107 -5.72878);
+
+    @media (max-width:480px) {
+        width: 100%;
+    }
 }
 
 .top-main-content {
@@ -165,6 +174,11 @@
     height: 50px;
     background-color: rgba(29, 29, 90, 0.571);
     border-radius: 10px;
+
+    @media (max-width:480px) {
+        width: 30px;
+    }
+
 }
 
 .features-section {
@@ -178,6 +192,10 @@
     font-weight: 800;
     margin-bottom: 15px;
     line-height: 1.2;
+
+    @media (max-width:480px) {
+        font-size: 34px;
+    }
 }
 
 .subtitle {

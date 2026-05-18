@@ -1,8 +1,8 @@
 import React from 'react'
-import "../../src/Footer/Footer.css";
+import "./Footer.css";
 import { FaHeart } from "react-icons/fa";
-import List from '../Components/List/ListComponent';
-import { ListData, ListCompany, ListConnect } from '../Components/List/ListData';
+import List from '../List/ListComponent';
+import { ListData, ListCompany, ListConnect } from '../List/ListData';
 
 const Footer = () => {
     return (

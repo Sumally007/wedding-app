@@ -1,8 +1,8 @@
 import React from 'react'
 import { LuArrowUpRight, LuQrCode } from "react-icons/lu";
 import { CiGift, CiCamera } from "react-icons/ci";
-import "../../src/Started/Started.css";
-import Buttons from '../Components/Buttons';
+import "./Started.css";
+import Buttons from '../Buttons';
 
 
 
