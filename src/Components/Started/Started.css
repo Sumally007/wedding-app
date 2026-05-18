@@ -2,6 +2,10 @@
     padding: 4% 10% 5% 10%;
     background-color: #080a0d;
     border-bottom: 1px solid gray;
+
+    @media (max-width:480px) {
+        padding: 20% 5%;
+    }
 }
 
 .started-container {
@@ -10,6 +14,10 @@
     border: 1px solid grey;
     border-radius: 20px;
     overflow: hidden;
+
+    @media (max-width:480px) {
+        flex-direction: column;
+    }
 }
 
 .left-started-content {
@@ -33,6 +41,10 @@
     font-size: 36px;
     margin-bottom: 10px;
     color: #fff;
+
+    @media (max-width:480px) {
+        font-size: 34px;
+    }
 }
 
 .left-started-content h1 span {
@@ -72,6 +84,10 @@
     align-items: center;
     text-align: center;
     gap: 40px;
+
+    @media (max-width:480px) {
+        display: none;
+    }
 }
 
 .middile-started-content .icon-box {
@@ -108,6 +124,11 @@
 .right-started-content {
     flex: 1;
     padding: 40px;
+
+    @media (max-width:480px) {
+        background-color: #161b22;
+        border-top: 1px solid grey;
+    }
 }
 
 .circle-container {
@@ -154,6 +175,12 @@
     margin-bottom: 20px;
     font-family: "Oxygen", sans-serif;
     margin-bottom: 20px;
+}
+
+.buttons-container {
+    @media (max-width:480px) {
+        margin-bottom: 0;
+    }
 }
 
 .buttons-container .btn-social {

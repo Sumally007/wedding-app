@@ -5,15 +5,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 20px; */
     background-color: lab(3 -0.2 -1.43);
     flex-direction: column;
+
+    @media (max-width:480px) {
+        padding: 20% 5%;
+        align-items: start;
+    }
 }
 
 .header-works-section {
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width:480px) {
+        align-items: start;
+    }
 
 }
 
@@ -35,6 +43,10 @@
     margin-bottom: 15px;
     line-height: 1.2;
     margin-top: 15px;
+
+    @media (max-width:480px) {
+        font-size: 34px;
+    }
 }
 
 .bottom-subtitle {
@@ -45,6 +57,12 @@
     margin-left: 64px;
     margin-right: 64px;
     text-align: center;
+
+    @media (max-width:480px) {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: start;
+    }
 }
 
 .card-section {
@@ -95,6 +113,10 @@
 .footer-works-section {
     text-align: center;
     margin-top: 50px;
+
+    @media (max-width:480px) {
+        text-align: start;
+    }
 }
 
 .footer-works-section p {

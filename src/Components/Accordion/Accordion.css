@@ -2,16 +2,26 @@
     text-align: center;
     padding: 4% 10% 5% 10%;
     background-color: lab(4 -0.37 -6.38);
+
+    @media (max-width:480px) {
+        padding: 20% 5%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .accordion h1 {
     font-family: "Geist", sans-serif;
     color: #fff;
-    font-size: 2.7rem;
     font-weight: 800;
     margin-bottom: 15px;
     line-height: 1.2;
     margin-top: 15px;
+
+    @media (max-width:480px) {
+        font-size: 34px;
+    }
 
 }
 
@@ -22,6 +32,12 @@
     margin-left: 64px;
     margin-right: 64px;
     text-align: center;
+
+    @media (max-width:480px) {
+        text-align: start;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .accordion p span {
@@ -33,6 +49,11 @@
     color: #fff;
     width: 100%;
     padding: 3rem 13rem;
+
+    @media (max-width:480px) {
+        padding: 20% 0 0 0;
+    }
+
 }
 
 .accordion-card {

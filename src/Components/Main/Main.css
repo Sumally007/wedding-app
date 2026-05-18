@@ -8,7 +8,7 @@
 
     @media (max-width:480px) {
         flex-direction: column;
-        padding: 10% 5%;
+        padding: 20% 5%;
     }
 }
 

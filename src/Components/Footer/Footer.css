@@ -3,6 +3,10 @@
     background-color: #080a0d;
     color: #fff;
     font-family: "Oxygen", sans-serif;
+
+    @media (max-width:480px) {
+        padding: 20% 5% 5% 5%;
+    }
 }
 
 .footer-top {
@@ -10,6 +14,11 @@
     justify-content: space-between;
     border-bottom: 1px solid gray;
     padding-bottom: 60px;
+
+    @media (max-width:480px) {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
 }
 
 .footer-top li {
@@ -24,11 +33,30 @@
     color: #fff;
 }
 
+.about-container {
+    @media (max-width:480px) {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
 .about-container p {
     font-size: .9rem;
     line-height: 1.8;
     width: 272px;
     margin-top: 10px;
+}
+
+.product-container {
+    @media (max-width:480px) {
+        margin-right: 140px;
+    }
+}
+
+.contact-container {
+    @media (max-width:480px) {
+        margin-top: 40px;
+    }
 }
 
 .footer-bottom {
