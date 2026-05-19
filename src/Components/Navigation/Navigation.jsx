@@ -1,22 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navigation.css";
 import List from '../List/ListComponent';
 import { ListData, ListCompany, ListConnect } from '../List/ListData';
 
 
 const Navigation = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <nav className='navigation'>
             <div className="mobile-nav">
                 <div className='top-nav'>
                     <span>Y-Ya</span>
-                    <div className='nav-bar'>
+                    <div className='nav-bar' onClick={() => setMenuOpen(!menuOpen)}>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
                 </div>
-                <div className='menu-container'>
+                <div className={`menu-container ${menuOpen ? "open" : ""}`}>
                     <ul>
                         {ListData.map((item) => (
                             <List key={item.id} item={item} />
