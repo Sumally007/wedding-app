@@ -29,7 +29,7 @@ const Header = () => {
 
                 <Buttons
                     words={<span>Contact Us</span>}
-                    classname="btn-icon"
+                    classname="btn btn-icon"
                     icon={<FiMessageSquare className='message-icon' />} >
                 </Buttons>
             </div>

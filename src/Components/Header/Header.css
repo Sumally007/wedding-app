@@ -67,19 +67,9 @@
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-
-    @media (max-width:480px) {
-        width: 180px;
-        padding: 0;
-    }
 }
 
-.buttons-container .btn-icon {
-    font-family: "Oxygen", sans-serif;
-    border: none;
-    outline: none;
-    padding: 15px 40px;
-    border-radius: 50px;
+.header-sect .buttons-container .btn-icon {
     background-color: rgb(64, 64, 73);
     text-align: center;
     display: flex;
