@@ -40,7 +40,7 @@
     align-items: center;
 
     @media (max-width:480px) {
-        padding: 10px 5%;
+        padding: 20px 5%;
     }
 }
 
@@ -64,11 +64,11 @@
 .menu-container {
     @media (max-width:480px) {
         color: #fff;
-        padding: 15px 5%;
+        padding: 20px 5%;
         border-bottom: 1px solid lab(53 -1.3 -8.25);
         border-top: 1px solid lab(53 -1.3 -8.25);
         max-height: 0;
-
+        display: none;
         overflow: hidden;
 
         opacity: 0;
@@ -79,6 +79,7 @@
 }
 
 .menu-container.open {
+    display: block;
     max-height: 500px;
     opacity: 1;
     visibility: visible;
