@@ -11,14 +11,11 @@
     }
 }
 
-.accordion h1 {
-    font-family: var(--font-primary);
-    font-size: var(--h2-size);
+.accordion .heading-fsq {
+
     color: #fff;
-    font-weight: var(--h2-weight);
-    margin-bottom: 15px;
-    line-height: var(----h2-line-height);
     margin-top: 15px;
+    margin-bottom: 15px;
 
     @media (max-width:480px) {
         /* font-size: 34px; */

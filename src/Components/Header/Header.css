@@ -11,13 +11,8 @@
 }
 
 .heading {
-    font-family: var(--font-primary);
-    font-size: var(--h1-size);
-    font-weight: var(--h1-weight);
     text-align: center;
     margin: 0 20%;
-    /* margin-bottom: var(--h1-margin-bottom); */
-    line-height: var(--h1-line-height);
     color: white;
 
     @media (max-width:480px) {

@@ -3,6 +3,7 @@ import "./Footer.css";
 import { FaHeart } from "react-icons/fa";
 import List from '../List/ListComponent';
 import { ListData, ListCompany, ListConnect } from '../List/ListData';
+import { H4 } from '../Typography/H4';
 
 const Footer = () => {
     return (
@@ -16,7 +17,8 @@ const Footer = () => {
                     <p>Collect support, capture memories, and bring your event to life through one simple QR experience.</p>
                 </div>
                 <div className="product-container">
-                    <h4>Product</h4>
+                    <H4>Product</H4>
+                    {/* <h4>Product</h4> */}
                     <ul>
                         {ListData.map((item) => (
                             <List key={item.id} item={item} />
@@ -24,7 +26,8 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="company-container">
-                    <h4>Company</h4>
+                    <H4>Company</H4>
+                    {/* <h4>Company</h4> */}
                     <ul>
                         {ListCompany.map((item) => (
                             <List key={item.id} item={item} />
@@ -32,7 +35,8 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="contact-container">
-                    <h4>Connect</h4>
+                    <H4>Connect</H4>
+                    {/* <h4>Connect</h4> */}
                     <ul>
                         {ListConnect.map((item) => (
                             <List key={item.id} item={item} />

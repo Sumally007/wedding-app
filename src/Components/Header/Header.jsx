@@ -7,6 +7,8 @@ import { IoIosTrendingUp } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa6";
 import Buttons from '../Buttons';
+import { H1 } from '../Typography/H1';
+// import '../Typography/Typography.css';
 
 const Header = () => {
     const MiddleData = [
@@ -18,7 +20,8 @@ const Header = () => {
 
     return (
         <section className='header-sect'>
-            <h1 className='heading'>Every Event Moment, <span>Seamlessly Connected</span></h1>
+            <H1 className="heading">Every Event Moment, <span>Seamlessly Connected</span></H1>
+            {/* <h1 className='heading'>Every Event Moment, <span>Seamlessly Connected</span></h1> */}
             <p className='content'>Give your guests the easiest way to share photos, send mobile money gifts, and celebrate together — all from one simple scan.</p>
             <div className='buttons-container'>
 

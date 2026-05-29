@@ -4,6 +4,8 @@ import { IoCallOutline, IoSettingsOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { LuScanLine } from "react-icons/lu";
 import Buttons from '../Buttons';
+import { H2 } from '../Typography/H2';
+import { H4 } from '../Typography/H4';
 
 
 
@@ -18,7 +20,8 @@ const HowItWorks = () => {
         <section className='how-it-works-section'>
             <div className='header-works-section'>
                 <p className='top-header'>How it works</p>
-                <h1>How Your Event Goes Live</h1>
+                <H2 className='heading-event'>How Your Event Goes Live</H2>
+                {/* <h1 className='heading-event'>How Your Event Goes Live</h1> */}
                 <p className='bottom-subtitle'>Getting started is simple. You share a few details, we set up the experience, and guests use it on event day.</p>
             </div>
             <div className='card-section'>
@@ -57,7 +60,8 @@ const CardComponent = ({ item }) => {
                 {item.icon}
             </div>
             <div className="feature-text">
-                <h3>{item.heading}</h3>
+                <H4>{item.heading}</H4>
+                {/* <h3>{item.heading}</h3> */}
                 <p>{item.comment}</p>
             </div>
         </div>

@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import "./Accordion.css";
 import { AccordionData } from './AccordionData'
 import { MdOutlineKeyboardArrowUp, MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { H2 } from '../Typography/H2';
 
 const Accordion = () => {
     return (
         <section>
             <div className='accordion'>
-                <h1>Frequently Asked Questions</h1>
+                <H2 className='heading-fsq'>Frequently Asked Questions</H2>
+                {/* <h1 className='heading-fsq'>Frequently Asked Questions</h1> */}
                 <p>These are the most common questions about Y-Ya.</p>
                 <p>Can't find what you're looking for? <span>Chat to our friendly team!</span></p>
                 <div className="accordion-card-container">

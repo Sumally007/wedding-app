@@ -35,13 +35,9 @@
     color: lab(56.8475% 3.2759 -65.2818);
 }
 
-.header-works-section h1 {
-    font-family: var(--font-primary);
+.header-works-section .heading-event {
     color: #fff;
-    font-size: var(--h2-size);
-    font-weight: var(--h2-weight);
     margin-bottom: 15px;
-    line-height: var(--h2-line-height);
     margin-top: 15px;
 
     @media (max-width:480px) {
@@ -94,15 +90,14 @@
 }
 
 
-.card-section .card h3 {
+/* .card-section .card h3 {
     font-family: var(--font-secondary);
     font-weight: var(--h4-weigh);
     font-size: var(--h4-size);
     line-height: var(--h4-line-height);
     margin-bottom: var(--h4-margin-bottom);
-    /* margin-bottom: 20px;
-    font-size: 1rem; */
-}
+    
+} */
 
 .card-section .card p {
     font-size: .9rem;

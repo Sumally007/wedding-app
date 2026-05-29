@@ -5,6 +5,8 @@ import { LuBanknote } from "react-icons/lu";
 import { BsCheck2 } from "react-icons/bs";
 import { CiCamera } from "react-icons/ci";
 import { LuTvMinimalPlay } from "react-icons/lu";
+import { H2 } from '../Typography/H2';
+import { H4 } from '../Typography/H4';
 
 const Main = () => {
     const barData = [
@@ -70,7 +72,8 @@ const Main = () => {
                 </div>
             </div>
             <div className='features-section'>
-                <h1 className="main-title">Everything Your Event Needs in One Place</h1>
+                <H2 className="main-title">Everything Your Event Needs in One Place</H2>
+                {/* <h1 className="main-title">Everything Your Event Needs in One Place</h1> */}
                 <p className="subtitle">Whether you want to collect gifts, capture guest memories, or create a more interactive MC experience — Y-Ya brings it together in one simple flow.</p>
 
                 <div className="features-list">
@@ -115,7 +118,8 @@ const FeatureComponent = ({ item }) => {
                 {item.icon}
             </div>
             <div className="feature-text">
-                <h3>{item.heading}</h3>
+                <H4>{item.heading}</H4>
+                {/* <h3>{item.heading}</h3> */}
                 <p>{item.comment}</p>
             </div>
         </div>
