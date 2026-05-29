@@ -48,12 +48,37 @@
 }
 
 .product-container {
+    h4 {
+        font-family: var(--font-secondary);
+        font-weight: var(--h4-weigh);
+        font-size: var(--h4-size);
+        line-height: var(--h4-line-height);
+        margin-bottom: var(--h4-margin-bottom);
+    }
+
     @media (max-width:480px) {
         margin-right: 140px;
     }
 }
 
+.company-container h4 {
+    font-family: var(--font-secondary);
+    font-weight: var(--h4-weigh);
+    font-size: var(--h4-size);
+    line-height: var(--h4-line-height);
+    margin-bottom: var(--h4-margin-bottom);
+
+}
+
 .contact-container {
+    h4 {
+        font-family: var(--font-secondary);
+        font-weight: var(--h4-weigh);
+        font-size: var(--h4-size);
+        line-height: var(--h4-line-height);
+        margin-bottom: var(--h4-margin-bottom);
+    }
+
     @media (max-width:480px) {
         margin-top: 40px;
     }

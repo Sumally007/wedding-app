@@ -233,8 +233,10 @@
 
 .feature-text h3 {
     font-family: var(--font-secondary);
-    font-weight: 700;
-    font-size: 1rem;
+    font-weight: var(--h4-weigh);
+    font-size: var(--h4-size);
+    line-height: var(--h4-line-height);
+    margin-bottom: var(--h4-margin-bottom);
 
 }
 
