@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono&family=Geist:wght@900&family=Oxygen:wght@300;400;700&display=swap');
-
 .header-sect {
     padding-top: 10%;
     display: flex;
@@ -13,7 +11,7 @@
 }
 
 .heading {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     font-size: 64px;
     font-weight: 900;
     text-align: center;
@@ -33,7 +31,7 @@
 }
 
 .content {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-width: 300;
     font-style: normal;
     font-size: 20px;
@@ -60,7 +58,7 @@
 }
 
 .header-sect .buttons-container .btn {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     border: none;
     outline: none;
     padding: 15px 40px;
@@ -91,7 +89,7 @@
 }
 
 .contribution-container {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     width: 100%;
     padding: 4% 10% 5% 10%;
     display: flex;
@@ -268,7 +266,7 @@
 
 
 .profile-picture {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     border-radius: 100%;
     padding: 10px;
     display: flex;
@@ -337,7 +335,7 @@
 }
 
 h3 {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     color: #fff;
     font-size: 14px;
 }

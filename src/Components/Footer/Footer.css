@@ -2,7 +2,7 @@
     padding: 4% 10% 1.5% 10%;
     background-color: #080a0d;
     color: #fff;
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
 
     @media (max-width:480px) {
         padding: 20% 5% 5% 5%;

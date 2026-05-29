@@ -1,5 +1,5 @@
 .everything {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     display: flex;
     justify-content: space-between;
     gap: 60px;
@@ -38,7 +38,7 @@
 }
 
 .top-main-content div h2 {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     font-size: 26px;
     font-weight: 900;
     color: #fff;
@@ -47,7 +47,7 @@
 }
 
 .top-main-content div h2 span {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 13px;
     align-self: center;
     margin-left: 10px;
@@ -148,13 +148,13 @@
 }
 
 .starts-heading h2 {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     color: #fff;
     display: flex;
 }
 
 .starts-heading h2 p {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 11px;
     margin-left: 10px;
     font-weight: 300;
@@ -186,7 +186,7 @@
 }
 
 .main-title {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     color: #fff;
     font-size: 2.7rem;
     font-weight: 800;
@@ -199,7 +199,7 @@
 }
 
 .subtitle {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -232,7 +232,7 @@
 }
 
 .feature-text h3 {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 1rem;
 

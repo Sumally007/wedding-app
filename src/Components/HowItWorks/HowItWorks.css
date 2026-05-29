@@ -1,5 +1,5 @@
 .how-it-works-section {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     width: 100%;
     padding: 4% 10% 5% 10%;
     display: flex;
@@ -26,7 +26,7 @@
 }
 
 .top-header {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-weight: bold;
     padding: 2px 15px;
     border: 1px solid grey;
@@ -36,7 +36,7 @@
 }
 
 .header-works-section h1 {
-    font-family: "Geist", sans-serif;
+    font-family: var(--font-primary);
     color: #fff;
     font-size: 2.7rem;
     font-weight: 800;
@@ -50,7 +50,7 @@
 }
 
 .bottom-subtitle {
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -126,7 +126,7 @@
 
 .footer-works-section .btn {
 
-    font-family: "Oxygen", sans-serif;
+    font-family: var(--font-secondary);
     border: none;
     outline: none;
     padding: 15px 20px;
