@@ -38,10 +38,10 @@
 .header-works-section h1 {
     font-family: var(--font-primary);
     color: #fff;
-    font-size: 2.7rem;
-    font-weight: 800;
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
     margin-bottom: 15px;
-    line-height: 1.2;
+    line-height: var(--h2-line-height);
     margin-top: 15px;
 
     @media (max-width:480px) {

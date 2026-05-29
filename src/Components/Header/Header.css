@@ -16,6 +16,7 @@
     font-weight: var(--h1-weight);
     text-align: center;
     margin: 0 20%;
+    /* margin-bottom: var(--h1-margin-bottom); */
     line-height: var(--h1-line-height);
     color: white;
 
