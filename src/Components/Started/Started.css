@@ -72,8 +72,6 @@
 }
 
 .sub-intro {
-    font-size: .9rem;
-    line-height: 1.8;
     margin-bottom: 20px;
 }
 
@@ -179,10 +177,6 @@
 }
 
 .right-started-content p {
-    font-size: .9rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    font-family: var(--font-secondary);
     margin-bottom: 20px;
 }
 

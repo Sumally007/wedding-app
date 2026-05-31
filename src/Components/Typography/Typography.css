@@ -26,7 +26,31 @@
 
     /* COLORS */
     --color-white: #fff;
+    --color-gray: lab(55.8664% -1.61177 -7.9819);
+
+    /* PARAGRAPH SIZES */
+    --paragraph-normal-size: 1rem;
+    /* 16px */
+    --paragraph-normal-weight: 400;
+    --paragraph-normal-line-height: 1.6;
+    --paragraph-normal-margin-bottom: 1rem;
+
+    --paragraph-subtitle-size: 1.125rem;
+    /* 18px */
+    --paragraph-subtitle-weight: 500;
+    --paragraph-subtitle-line-height: 1.5;
+    --paragraph-subtitle-margin-bottom: 0.75rem;
+
+    --paragraph-small-size: 0.875rem;
+    /* 14px */
+    --paragraph-small-weight: 400;
+    --paragraph-small-line-height: 1.5;
+    --paragraph-small-margin-bottom: 0.5rem;
 }
+
+/* ============================================
+   HEADING STYLES - H1, H2, H4
+============================================ */
 
 .heading-h1 {
     font-family: var(--font-primary);
@@ -49,4 +73,35 @@
     line-height: var(--h4-line-height);
     margin-bottom: var(--h4-margin-bottom);
     color: var(--color-white);
+}
+
+/* ============================================
+   PARAGRAPH STYLES
+============================================ */
+
+.paragraph-normal {
+    font-family: var(--font-secondary);
+    font-size: var(--paragraph-normal-size);
+    font-weight: var(--paragraph-normal-weight);
+    line-height: var(--paragraph-normal-line-height);
+    margin-bottom: var(--paragraph-normal-margin-bottom);
+    color: var(--color-gray);
+}
+
+.paragraph-subtitle {
+    font-family: var(--font-secondary);
+    font-size: var(--paragraph-subtitle-size);
+    font-weight: var(--paragraph-subtitle-weight);
+    line-height: var(--paragraph-subtitle-line-height);
+    /* margin-bottom: var(--paragraph-subtitle-margin-bottom); */
+    color: var(--color-gray);
+}
+
+.paragraph-small {
+    font-family: var(--font-secondary);
+    font-size: var(--paragraph-small-size);
+    font-weight: var(--paragraph-small-weight);
+    line-height: var(--paragraph-small-line-height);
+    /* margin-bottom: var(--paragraph-small-margin-bottom); */
+    color: var(--color-gray);
 }

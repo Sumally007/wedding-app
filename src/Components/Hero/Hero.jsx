@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Hero.css";
+import { ParagraphNormal } from '../Typography/ParagraphNormal';
 
 const Hero = () => {
     const TagData = [
@@ -12,7 +13,8 @@ const Hero = () => {
     return (
         <section className="hero-container">
             <div className="text-content">
-                <p>Perfect for every celebration — trusted by event organizers to make gifting, photo sharing, and live engagement seamless.</p>
+                <ParagraphNormal>Perfect for every celebration — trusted by event organizers to make gifting, photo sharing, and live engagement seamless.</ParagraphNormal>
+                {/* <p>Perfect for every celebration — trusted by event organizers to make gifting, photo sharing, and live engagement seamless.</p> */}
             </div>
 
             <div className="tags-wrapper">
@@ -36,7 +38,7 @@ const TagComponent = ({ item }) => {
     return (
         <div className="tag-pill">
             <span className="icon">{item.icon}</span>
-            {item.name}
+            <ParagraphNormal className="text">{item.name}</ParagraphNormal>
         </div>
     )
 }

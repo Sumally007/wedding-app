@@ -24,11 +24,6 @@
 }
 
 .accordion p {
-    font-family: var(--font-secondary);
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-left: 64px;
-    margin-right: 64px;
     text-align: center;
 
     @media (max-width:480px) {
@@ -77,8 +72,6 @@
 }
 
 .head-title {
-    font-family: var(--font-secondary);
-    font-size: 1rem;
     margin-left: 20px;
     font-weight: 500;
 }
@@ -92,7 +85,5 @@
     text-align: start;
     margin: 0;
     margin-left: 4.5rem;
-    font-size: .9rem;
     margin-top: 10px;
-
 }

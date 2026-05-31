@@ -4,6 +4,7 @@ import { FaHeart } from "react-icons/fa";
 import List from '../List/ListComponent';
 import { ListData, ListCompany, ListConnect } from '../List/ListData';
 import { H4 } from '../Typography/H4';
+import { ParagraphNormal } from '../Typography/ParagraphNormal';
 
 const Footer = () => {
     return (
@@ -14,7 +15,8 @@ const Footer = () => {
                         {/* <img src="" alt="" /> */}
                         <span>Y-Ya</span>
                     </div>
-                    <p>Collect support, capture memories, and bring your event to life through one simple QR experience.</p>
+                    <ParagraphNormal>Collect support, capture memories, and bring your event to life through one simple QR experience.</ParagraphNormal>
+                    {/* <p>Collect support, capture memories, and bring your event to life through one simple QR experience.</p> */}
                 </div>
                 <div className="product-container">
                     <H4>Product</H4>

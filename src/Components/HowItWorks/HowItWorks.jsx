@@ -6,6 +6,9 @@ import { LuScanLine } from "react-icons/lu";
 import Buttons from '../Buttons';
 import { H2 } from '../Typography/H2';
 import { H4 } from '../Typography/H4';
+import { ParagraphSmall } from '../Typography/ParagraphSmall';
+import { ParagraphSubtitle } from '../Typography/ParagraphSubtitle';
+import { ParagraphNormal } from '../Typography/ParagraphNormal';
 
 
 
@@ -22,7 +25,8 @@ const HowItWorks = () => {
                 <p className='top-header'>How it works</p>
                 <H2 className='heading-event'>How Your Event Goes Live</H2>
                 {/* <h1 className='heading-event'>How Your Event Goes Live</h1> */}
-                <p className='bottom-subtitle'>Getting started is simple. You share a few details, we set up the experience, and guests use it on event day.</p>
+                <ParagraphSubtitle className='bottom-subtitle'>Getting started is simple. You share a few details, we set up the experience, and guests use it on event day.</ParagraphSubtitle>
+                {/* <p className='bottom-subtitle'>Getting started is simple. You share a few details, we set up the experience, and guests use it on event day.</p> */}
             </div>
             <div className='card-section'>
                 {cardData.map((item) => (
@@ -46,8 +50,8 @@ const HowItWorks = () => {
                 <Buttons words="Wire an Event"
                     classname="btn" >
                 </Buttons>
-
-                <p>We help you set everything up before the big day</p>
+                <ParagraphSmall>We help you set everything up before the big day</ParagraphSmall>
+                {/* <p>We help you set everything up before the big day</p> */}
             </div>
         </section>
     )
@@ -62,7 +66,8 @@ const CardComponent = ({ item }) => {
             <div className="feature-text">
                 <H4>{item.heading}</H4>
                 {/* <h3>{item.heading}</h3> */}
-                <p>{item.comment}</p>
+                <ParagraphNormal>{item.comment}</ParagraphNormal>
+                {/* <p>{item.comment}</p> */}
             </div>
         </div>
     )

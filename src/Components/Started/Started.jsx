@@ -5,6 +5,7 @@ import "./Started.css";
 import Buttons from '../Buttons';
 import { H2 } from '../Typography/H2';
 import { H4 } from '../Typography/H4';
+import { ParagraphNormal } from '../Typography/ParagraphNormal';
 
 
 
@@ -17,7 +18,8 @@ const Started = () => {
                     <p className='top-header'>Let's get started</p>
                     <H2 className='heading-started'>Make Your Next Event <span>Unforgettable</span></H2>
                     {/* <h1>Make Your Next Event <span>Unforgettable</span></h1> */}
-                    <p className='sub-intro'>Talk to us early so your event can be set up and ready before the big day.</p>
+                    <ParagraphNormal className='sub-intro'>Talk to us early so your event can be set up and ready before the big day.</ParagraphNormal>
+                    {/* <p className='sub-intro'>Talk to us early so your event can be set up and ready before the big day.</p> */}
                     <Buttons
                         words="Wire an Event"
                         icon={<LuArrowUpRight />}
@@ -54,7 +56,8 @@ const Started = () => {
                     </div>
                     <H4>Event organizers already trust Y-Ya. Join them!</H4>
                     {/* <h3>Event organizers already trust Y-Ya. Join them!</h3> */}
-                    <p>Perfect for weddings, send-offs, celebrations, and fundraisers. One QR code for everything.</p>
+                    {/* <p>Perfect for weddings, send-offs, celebrations, and fundraisers. One QR code for everything.</p> */}
+                    <ParagraphNormal>Perfect for weddings, send-offs, celebrations, and fundraisers. One QR code for everything.</ParagraphNormal>
                     <div className="buttons-container">
                         <Buttons
                             words="WhatsApp"

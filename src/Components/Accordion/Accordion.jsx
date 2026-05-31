@@ -3,6 +3,8 @@ import "./Accordion.css";
 import { AccordionData } from './AccordionData'
 import { MdOutlineKeyboardArrowUp, MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { H2 } from '../Typography/H2';
+import { H4 } from '../Typography/H4';
+import { ParagraphNormal } from '../Typography/ParagraphNormal';
 
 const Accordion = () => {
     return (
@@ -10,8 +12,10 @@ const Accordion = () => {
             <div className='accordion'>
                 <H2 className='heading-fsq'>Frequently Asked Questions</H2>
                 {/* <h1 className='heading-fsq'>Frequently Asked Questions</h1> */}
-                <p>These are the most common questions about Y-Ya.</p>
-                <p>Can't find what you're looking for? <span>Chat to our friendly team!</span></p>
+                <ParagraphNormal>These are the most common questions about Y-Ya.</ParagraphNormal>
+                {/* <p>These are the most common questions about Y-Ya.</p> */}
+                <ParagraphNormal>Can't find what you're looking for? <span>Chat to our friendly team!</span></ParagraphNormal>
+                {/* <p>Can't find what you're looking for? <span>Chat to our friendly team!</span></p> */}
                 <div className="accordion-card-container">
                     {AccordionData.map(({ title, content, icon, id }) => (
                         <AccordionComponet title={title} content={content} key={id} icon={icon} />
@@ -30,13 +34,14 @@ const AccordionComponet = ({ title, content, icon, id }) => {
         <div className="header-accordion" onClick={() => setIsActive(!isActive)}>
             <div className='left-accordion'>
                 <div className='icon-box'><Icon className="icon" /></div>
-                <div className='head-title-box'><h3 className='head-title'>{title}</h3></div>
+                <div className='head-title-box'><H4 className='head-title'>{title}</H4> </div>
             </div>
-            <p className='icon-toogle'>{isActive ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</p>
+            {/* <p className='icon-toogle'>{isActive ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</p> */}
+            <ParagraphNormal className='icon-toogle'>{isActive ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</ParagraphNormal>
         </div>
 
         <div className="content-accordion">
-            {isActive && <p className='card-info'>{content}</p>}
+            {isActive && <ParagraphNormal className='card-info'>{content}</ParagraphNormal>}
         </div>
     </div>
 }

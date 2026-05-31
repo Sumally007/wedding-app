@@ -7,6 +7,7 @@ import { CiCamera } from "react-icons/ci";
 import { LuTvMinimalPlay } from "react-icons/lu";
 import { H2 } from '../Typography/H2';
 import { H4 } from '../Typography/H4';
+import { ParagraphNormal } from '../Typography/ParagraphNormal';
 
 const Main = () => {
     const barData = [
@@ -74,7 +75,8 @@ const Main = () => {
             <div className='features-section'>
                 <H2 className="main-title">Everything Your Event Needs in One Place</H2>
                 {/* <h1 className="main-title">Everything Your Event Needs in One Place</h1> */}
-                <p className="subtitle">Whether you want to collect gifts, capture guest memories, or create a more interactive MC experience — Y-Ya brings it together in one simple flow.</p>
+                <ParagraphNormal className="subtitle">Whether you want to collect gifts, capture guest memories, or create a more interactive MC experience — Y-Ya brings it together in one simple flow.</ParagraphNormal>
+                {/* <p className="subtitle">Whether you want to collect gifts, capture guest memories, or create a more interactive MC experience — Y-Ya brings it together in one simple flow.</p> */}
 
                 <div className="features-list">
                     {featureData.map((item) => (
@@ -120,7 +122,8 @@ const FeatureComponent = ({ item }) => {
             <div className="feature-text">
                 <H4>{item.heading}</H4>
                 {/* <h3>{item.heading}</h3> */}
-                <p>{item.comment}</p>
+                <ParagraphNormal>{item.comment}</ParagraphNormal>
+                {/* <p>{item.comment}</p> */}
             </div>
         </div>
     )

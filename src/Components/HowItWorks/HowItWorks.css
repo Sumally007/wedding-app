@@ -46,10 +46,6 @@
 }
 
 .bottom-subtitle {
-    font-family: var(--font-secondary);
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 30px;
     margin-left: 64px;
     margin-right: 64px;
     text-align: center;
@@ -100,9 +96,9 @@
 } */
 
 .card-section .card p {
-    font-size: .9rem;
-    line-height: 1.5;
-    color: lab(86 -5.07 -19.17);
+    /* font-size: .9rem;
+    line-height: 1.5;*/
+    /* color: lab(86 -5.07 -19.17); */
 }
 
 .icon-box .icon-active {
@@ -121,7 +117,6 @@
 
 .footer-works-section p {
     margin-top: 10px;
-    font-size: .9rem;
 }
 
 .footer-works-section .btn {
