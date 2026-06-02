@@ -5,9 +5,7 @@ import { LuBanknote } from "react-icons/lu";
 import { BsCheck2 } from "react-icons/bs";
 import { CiCamera } from "react-icons/ci";
 import { LuTvMinimalPlay } from "react-icons/lu";
-import { H2 } from '../Typography/H2';
-import { H4 } from '../Typography/H4';
-import { ParagraphNormal } from '../Typography/ParagraphNormal';
+import { H2, H4, ParagraphNormal } from "../Typography";
 
 const Main = () => {
     const barData = [

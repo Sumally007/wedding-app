@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import "./Accordion.css";
 import { AccordionData } from './AccordionData'
 import { MdOutlineKeyboardArrowUp, MdOutlineKeyboardArrowDown } from "react-icons/md";
-import { H2 } from '../Typography/H2';
-import { H4 } from '../Typography/H4';
-import { ParagraphNormal } from '../Typography/ParagraphNormal';
+import { H2, H4, ParagraphNormal } from "../Typography";
 
 const Accordion = () => {
     return (

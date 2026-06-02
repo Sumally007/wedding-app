@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Hero.css";
-import { ParagraphNormal } from '../Typography/ParagraphNormal';
+import { ParagraphNormal } from "../Typography";
 
 const Hero = () => {
     const TagData = [

@@ -3,8 +3,7 @@ import "./Footer.css";
 import { FaHeart } from "react-icons/fa";
 import List from '../List/ListComponent';
 import { ListData, ListCompany, ListConnect } from '../List/ListData';
-import { H4 } from '../Typography/H4';
-import { ParagraphNormal } from '../Typography/ParagraphNormal';
+import { H4, ParagraphNormal } from "../Typography";
 
 const Footer = () => {
     return (

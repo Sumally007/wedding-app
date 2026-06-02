@@ -3,9 +3,7 @@ import { LuArrowUpRight, LuQrCode } from "react-icons/lu";
 import { CiGift, CiCamera } from "react-icons/ci";
 import "./Started.css";
 import Buttons from '../Buttons';
-import { H2 } from '../Typography/H2';
-import { H4 } from '../Typography/H4';
-import { ParagraphNormal } from '../Typography/ParagraphNormal';
+import { H2, H4, ParagraphNormal } from "../Typography";
 
 
 

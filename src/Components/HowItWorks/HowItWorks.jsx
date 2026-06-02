@@ -4,11 +4,10 @@ import { IoCallOutline, IoSettingsOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { LuScanLine } from "react-icons/lu";
 import Buttons from '../Buttons';
-import { H2 } from '../Typography/H2';
-import { H4 } from '../Typography/H4';
-import { ParagraphSmall } from '../Typography/ParagraphSmall';
-import { ParagraphSubtitle } from '../Typography/ParagraphSubtitle';
-import { ParagraphNormal } from '../Typography/ParagraphNormal';
+import { H2, H4, ParagraphNormal, ParagraphSubtitle, ParagraphSmall } from "../Typography";
+
+
+
 
 
 

@@ -7,9 +7,7 @@ import { IoIosTrendingUp } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa6";
 import Buttons from '../Buttons';
-import { H1 } from '../Typography/H1';
-import { ParagraphSubtitle } from '../Typography/ParagraphSubtitle';
-// import '../Typography/Typography.css';
+import { H1, ParagraphSubtitle } from "../Typography";
 
 const Header = () => {
     const MiddleData = [
