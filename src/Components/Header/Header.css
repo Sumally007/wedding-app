@@ -1,12 +1,14 @@
 .header-sect {
-    padding-top: 10%;
+    padding-top: 128px;
+    padding-bottom: 80px;
+    padding: 128px 20px 80px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: lab(3 -0.2 -1.43);
 
     @media (max-width:480px) {
-        padding: 15% 5%;
+        padding-top: 64px;
     }
 }
 
@@ -82,7 +84,7 @@
 .contribution-container {
     font-family: var(--font-secondary);
     width: 100%;
-    padding: 4% 10% 5% 10%;
+    padding: 4% 10% 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,7 +185,7 @@
 .live-container {
     border: 1px solid gray;
     border-radius: 30px;
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     background-color: lab(9.47104% -.986107 -5.72878);
 }

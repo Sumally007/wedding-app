@@ -1,7 +1,7 @@
 .how-it-works-section {
     font-family: var(--font-secondary);
     width: 100%;
-    padding: 4% 10% 5% 10%;
+    padding: 8% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,11 +95,11 @@
     
 } */
 
-.card-section .card p {
-    /* font-size: .9rem;
-    line-height: 1.5;*/
-    /* color: lab(86 -5.07 -19.17); */
-}
+/* .card-section .card p {
+    font-size: .9rem;
+    line-height: 1.5; 
+  color: lab(86 -5.07 -19.17);
+} */
 
 .icon-box .icon-active {
     background-color: lab(62 -1.82 -56.85);

@@ -1,6 +1,6 @@
 .accordion {
     text-align: center;
-    padding: 4% 10% 5% 10%;
+    padding: 8% 10%;
     background-color: lab(4 -0.37 -6.38);
 
     @media (max-width:480px) {
@@ -14,12 +14,7 @@
 .accordion .heading-fsq {
 
     color: #fff;
-    margin-top: 15px;
     margin-bottom: 15px;
-
-    @media (max-width:480px) {
-        /* font-size: 34px; */
-    }
 
 }
 
@@ -41,7 +36,7 @@
 .accordion-card-container {
     color: #fff;
     width: 100%;
-    padding: 3rem 13rem;
+    padding: 3rem 13rem 0 13rem;
 
     @media (max-width:480px) {
         padding: 20% 0 0 0;

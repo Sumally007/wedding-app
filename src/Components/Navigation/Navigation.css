@@ -6,7 +6,7 @@
 
 .navigation {
     font-family: var(--font-secondary);
-    padding: 10px 10%;
+    padding: 15px 10%;
     background-color: #000;
     position: fixed;
     top: 0;
@@ -36,6 +36,7 @@
 
     @media (max-width:480px) {
         padding: 20px 5%;
+        height: 64px;
     }
 }
 

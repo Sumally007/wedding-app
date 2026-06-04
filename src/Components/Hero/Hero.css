@@ -2,7 +2,7 @@
     font-family: "Oxygen", sans-serif;
     display: flex;
     align-items: center;
-    padding: 4% 10% 5% 10%;
+    padding: 4% 10%;
     overflow: hidden;
     gap: 40px;
     background-color: lab(4 -0.37 -6.38);
