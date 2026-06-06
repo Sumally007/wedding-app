@@ -46,6 +46,11 @@
     --paragraph-small-weight: 400;
     --paragraph-small-line-height: 1.5;
     --paragraph-small-margin-bottom: 0.5rem;
+
+    /* PADDING SETTINGS */
+    --padding-large: 8% 10%;
+    --padding-mobile: 20% 5%;
+    --padding-content: 20px;
 }
 
 /* ============================================

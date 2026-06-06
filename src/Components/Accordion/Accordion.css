@@ -1,10 +1,10 @@
 .accordion {
     text-align: center;
-    padding: 8% 10%;
+    padding: var(--padding-large);
     background-color: lab(4 -0.37 -6.38);
 
     @media (max-width:480px) {
-        padding: 20% 5%;
+        padding: var(--padding-mobile);
         text-align: start;
         display: flex;
         flex-direction: column;
@@ -12,7 +12,6 @@
 }
 
 .accordion .heading-fsq {
-
     color: #fff;
     margin-bottom: 15px;
 

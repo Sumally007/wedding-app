@@ -3,12 +3,12 @@
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    padding: 8% 10%;
+    padding: var(--padding-large);
     background-color: lab(3 -0.2 -1.43);
 
     @media (max-width:480px) {
         flex-direction: column;
-        padding: 20% 5%;
+        padding: var(--padding-mobile);
     }
 }
 
@@ -18,7 +18,7 @@
     width: 500px;
     border: 0.5px solid gray;
     border-radius: 20px;
-    padding: 20px;
+    padding: var(--padding-content);
     background-color: lab(9.47104% -.986107 -5.72878);
 
     @media (max-width:480px) {

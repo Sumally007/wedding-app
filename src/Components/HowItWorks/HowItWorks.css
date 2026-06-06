@@ -1,7 +1,7 @@
 .how-it-works-section {
     font-family: var(--font-secondary);
     width: 100%;
-    padding: 8% 10%;
+    padding: var(--padding-large);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,7 @@
     flex-direction: column;
 
     @media (max-width:480px) {
-        padding: 20% 5%;
+        padding: var(--padding-mobile);
         align-items: start;
     }
 }
@@ -75,7 +75,7 @@
 .card {
     border: 0.1px solid gray;
     border-radius: 30px;
-    padding: 20px;
+    padding: var(--padding-content);
     display: flex;
     flex-direction: column;
     gap: 30px;
