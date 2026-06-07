@@ -47,7 +47,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-bottom: .3px solid lab(55.8664% -1.61177 -7.9819);
+    border-bottom: .3px solid var(--color-gray);
     padding-bottom: 20px;
     margin-bottom: 20px;
     cursor: pointer;
